@@ -156,9 +156,9 @@ This repository may include:
 
 ## 👤 Author
 
-**** [Your Name]  
-**LinkedIn:** [Your LinkedIn Profile]  
-**GitHub:** [Your GitHub Profile]
+**Nusaibah Noor A.S**  
+**LinkedIn:** [Nusaibah Noor A.S](https://www.linkedin.com/in/nusaibah-noor-as-sunnah)
+**GitHub:** [AndrewLovesLasagna](https://github.com/miselucul)
 
 ---
 
