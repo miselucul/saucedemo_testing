@@ -54,53 +54,56 @@ This project covers key QA activities such as:
 
 ---
 
-## 📂 Project Folder Structure
+# 📂 Project Folder Structure
+
+Struktur folder proyek **qa-saucedemo-e2e-testing**:
+
 
 qa-saucedemo-e2e-testing/
 │
-├── README.md
+├── 📄 README.md
 │
-├── docs/
-│   ├── Test_Plan.md
-│   ├── Requirements_Breakdown.md
-│   ├── Test_Strategy.md   (optional)
-│   ├── Test_Summary_Report.md
-│   ├── Bug_Report.md
+├── 🗂 docs/ # Dokumen proyek
+│ ├── Test_Plan.md
+│ ├── Requirements_Breakdown.md
+│ ├── Test_Strategy.md # Opsional
+│ ├── Test_Summary_Report.md
+│ └── Bug_Report.md
 │
-├── manual-testing/
-│   ├── Test_Cases.xlsx
-│   ├── Test_Cases_GoogleSheet_Link.txt
-│   ├── Smoke_Test_Suite.md
-│   ├── Regression_Test_Suite.md
+├── 📝 manual-testing/ # Manual test cases & suites
+│ ├── Test_Cases.xlsx
+│ ├── Test_Cases_GoogleSheet_Link.txt
+│ ├── Smoke_Test_Suite.md
+│ └── Regression_Test_Suite.md
 │
-├── bug-reports/
-│   ├── Bug_001.md
-│   ├── Bug_002.md
-│   ├── Bug_003.md
-│   └── screenshots/
-│       ├── bug_001.png
-│       ├── bug_002.png
+├── 🐞 bug-reports/ # Bug report files
+│ ├── Bug_001.md
+│ ├── Bug_002.md
+│ ├── Bug_003.md
+│ └── screenshots/
+│ ├── bug_001.png
+│ └── bug_002.png
 │
-├── api-testing/
-│   ├── postman_collection.json
-│   ├── postman_environment.json
-│   ├── newman-report.html
+├── ⚡ api-testing/ # API testing files
+│ ├── postman_collection.json
+│ ├── postman_environment.json
+│ └── newman-report.html
 │
-├── playwright-ui-tests/
-│   ├── tests/
-│   ├── pages/
-│   ├── playwright.config.ts
-│   └── package.json
+├── 🧪 playwright-ui-tests/ # Playwright UI tests
+│ ├── tests/
+│ ├── pages/
+│ ├── playwright.config.ts
+│ └── package.json
 │
-├── selenium-ui-tests/
-│   ├── tests/
-│   ├── pages/
-│   ├── requirements.txt
+├── 💻 selenium-ui-tests/ # Selenium UI tests
+│ ├── tests/
+│ ├── pages/
+│ └── requirements.txt
 │
-└── .github/
-    └── workflows/
-        ├── postman-ci.yml
-        ├── playwright-ci.yml
+└── 🔧 .github/ # GitHub Actions workflows
+└── workflows/
+├── postman-ci.yml
+└── playwright-ci.yml
 
 ## ✅ Test Coverage
 
